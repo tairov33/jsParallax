@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    user-select: none;
+}
+
+.box {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    font-family: cursive;
+    margin-bottom: 1500px;
+}
+
+.sky {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+    object-position: 0 0;
+}
+
+.river {
+    width: 100%;
+    z-index: -1;
+    transform: translateY(100%);
+}
+
+.flow{
+    position: absolute;
+}
+
+.flow_1{
+    top: 66%;
+    z-index: 1;
+    left: 65%;
+    position: absolute;
+}
+.flow_2{
+    top: 65%;
+    z-index: 1;
+    left: 86%;
+    position: absolute;
+}
+.flow_3{
+    top: 54%;
+    z-index: 1;
+    left: 0;
+    width: 100%;
+    position: absolute;
+}
+.flow_4{
+    top: 64%;
+    z-index: 1;
+    left: 0;
+    position: absolute;
+}
+.flow_5{
+    top: 63%;
+    z-index: 1;
+    left: 0;
+    position: absolute;
+}
+
+.mount {
+    width: 100%;
+    transform: translateY(187px);
+}
+
+.mount_2 {
+    position: absolute;
+    left: 60%;
+    top: 250px;
+    z-index: -1;
+}
+
+.sunRise {
+    position: absolute;
+    top: 310px;
+    left: 65%;
+    z-index: -1;
+}
+
+.bird{
+    position: absolute;
+}
+
+.bird_1 {
+    right: 50%;
+    top: 30%;
+    transform: scale(0);
+}
+
+.bird_2 {
+    top: 28%;
+    right: 59%;
+    transform: scale(0);
+}
+
+.bird_3 {
+    top: 33%;
+    left: 42%;
+    transform: scale(0);
+}
+
+.cloud {
+    position: absolute;
+    mix-blend-mode: overlay;
+}
+
+.cloud_1 {
+    margin-top: 25px;
+    left: 60%;
+}
+
+.cloud_2 {
+    top: 7px;
+}
+
+.cloud_3 {
+    left: 0;
+    top: 150px;
+}
+.cloud_4{
+    top: 10%;
+    left: 60%;
+}
+.cloud_5{
+    top: 10%;
+    left: 40%;
+}
